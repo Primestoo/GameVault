@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Request</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,7 +63,7 @@
             <textarea id="message" name="message" required></textarea>
             <button type="submit" class="submit-btn">Send</button>
         </form>
-        <button onclick="window.location.href='/Repository'" class="back-btn">Go back to Homepage</button>
+        <button onclick="window.location.href='/'" class="back-btn">Go back to Homepage</button>
     </div>
 </body>
 </html>
