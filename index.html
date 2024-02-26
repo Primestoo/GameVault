@@ -5,41 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Game Repository</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Additional CSS for the modal */
-        #cover-modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.9);
-        }
-
-        #cover-modal-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-
-        #cover-image {
-            max-width: 80%;
-            max-height: 80%;
-        }
-
-        #close {
-            color: white;
-            font-size: 30px;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -47,7 +12,6 @@
             <h1>My Game Repository</h1>
             <nav>
                 <ul>
-                    <li><a href="#" id="open-modal">In DVLP</a></li>
                     <li><a href="request.html">Request</a></li>
                     <li><a href="aboutme.html">About</a></li>
                     <li><a href="mailto:primesto000@gmail.com">Contact</a></li>
@@ -80,41 +44,5 @@
             <p>&copy; 2024 My Game Repository</p>
         </div>
     </footer>
-
-    <!-- The Modal -->
-    <div id="cover-modal">
-        <span id="close">&times;</span>
-        <div id="cover-modal-content">
-            <img id="cover-image" src="/storage/emulated/0/cover3.jpg">
-        </div>
-    </div>
-
-    <script>
-        // Get the modal
-        var modal = document.getElementById("cover-modal");
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("open-modal");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementById("close");
-
-        // When the user clicks on the button, open the modal
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
 </body>
 </html>
