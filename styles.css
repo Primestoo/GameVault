@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #171a21; /* Dark blue background */
     color: #fff; /* White text */
 }
@@ -18,9 +18,10 @@ body {
 }
 
 header {
-    background-color: #1b2838; /* Dark blue header */
+    background-color: #171a21; /* Dark blue header */
     color: #fff;
     padding: 20px 0;
+    border-bottom: 1px solid #00adee; /* Blue border bottom */
 }
 
 header h1 {
@@ -51,6 +52,7 @@ main {
     background-color: #1b2838; /* Dark blue background for game sections */
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
 }
 
 .game h2 {
@@ -82,7 +84,7 @@ main {
 }
 
 footer {
-    background-color: #1b2838; /* Dark blue footer */
+    background-color: #171a21; /* Dark blue footer */
     color: #fff;
     padding: 20px 0;
     text-align: center;
