@@ -67,7 +67,8 @@ main {
     color: #ccc; /* Light gray text for game names */
 }
 
-.download-btn, .info-btn {
+.download-btn,
+.info-btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #00adee; /* Blue download buttons */
@@ -79,13 +80,20 @@ main {
     margin-right: 10px;
 }
 
-.download-btn:hover, .info-btn:hover {
+.download-btn:hover,
+.info-btn:hover {
     background-color: #007acc; /* Darker blue on hover */
 }
 
-footer {
-    background-color: #171a21; /* Dark blue footer */
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+.warning-sign {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('warning.png');
+    background-size: cover;
+    margin-right: 10px;
 }
+
+.warning-text {
+    font-weight: bold;
+    }
