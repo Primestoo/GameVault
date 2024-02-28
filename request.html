@@ -34,19 +34,21 @@
         }
         label, textarea, input {
             display: block;
-            width: 100%;
-            margin-bottom: 15px;
+            width: calc(100% - 20px); /* Adjusted width to account for padding */
+            margin: 0 auto 15px; /* Centered and added margin */
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
             background-color: #1e2a3a; /* Dark blue form background */
             color: #fff; /* White text */
             font-size: 16px;
+            box-sizing: border-box; /* Ensure padding doesn't affect width */
         }
         textarea {
             height: 150px;
         }
         .submit-btn, .back-btn {
+            display: inline-block; /* Display buttons inline */
             padding: 12px 24px;
             background-color: #00adee; /* Steam blue */
             color: #fff; /* White text */
@@ -56,6 +58,7 @@
             transition: background-color 0.3s;
             font-size: 16px;
             margin-top: 20px;
+            text-decoration: none; /* Remove underline */
         }
         .submit-btn:hover, .back-btn:hover {
             background-color: #007acc; /* Darker blue on hover */
@@ -72,7 +75,7 @@
             <textarea id="message" name="message" required></textarea>
             <button type="submit" class="submit-btn">Send</button>
         </form>
-        <button onclick="window.location.href='https://primestoo.github.io/Repository/'" class="back-btn">Go back to Homepage</button>
+        <a href="https://primestoo.github.io/Repository/" class="back-btn">Go back to Homepage</a>
     </div>
 </body>
 </html>
