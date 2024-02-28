@@ -58,6 +58,7 @@ main {
 .game h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #fff; /* White text for game titles */
 }
 
 .game-name {
@@ -70,18 +71,19 @@ main {
 .info-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00adee; /* Blue download buttons */
+    background-color: #402080; /* Darker shade of blue-purple */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
     font-size: 16px;
     margin-right: 10px;
+    border: none; /* Remove button border */
 }
 
 .download-btn:hover,
 .info-btn:hover {
-    background-color: #007acc; /* Darker blue on hover */
+    background-color: #4b2d91; /* Darker shade on hover */
 }
 
 .warning-sign {
