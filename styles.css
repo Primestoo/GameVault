@@ -71,7 +71,7 @@ main {
 .info-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2d3461; /* Dark purple for button background */
+    background-color: #33004d; /* Dark purple for button background */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -83,7 +83,7 @@ main {
 
 .download-btn:hover,
 .info-btn:hover {
-    background-color: #3a3f7e; /* Darker shade on hover */
+    background-color: #800080; /* Darker shade of purple on hover */
 }
 
 .warning-sign {
@@ -97,4 +97,4 @@ main {
 
 .warning-text {
     font-weight: bold;
-        }
+}
