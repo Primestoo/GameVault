@@ -7,7 +7,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: linear-gradient(135deg, rgba(23, 26, 33, 0.9), rgba(78, 67, 118, 0.9)); /* Dark purple and dark blue mixed together */
+    background: linear-gradient(135deg, rgba(12, 7, 22, 0.9), rgba(78, 67, 118, 0.9)); /* Darker purple and dark blue mixed together */
     color: #fff; /* White text */
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, rgba(23, 26, 33, 0.9), rgba(78, 67, 118, 0.9)); /* Dark purple and dark blue mixed together */
+    background: linear-gradient(135deg, rgba(12, 7, 22, 0.9), rgba(78, 67, 118, 0.9)); /* Darker purple and dark blue mixed together */
     color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #00adee; /* Blue border bottom */
@@ -97,4 +97,4 @@ main {
 
 .warning-text {
     font-weight: bold;
-    }
+}    }
