@@ -7,7 +7,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: radial-gradient(circle, rgba(30, 30, 30, 0.8), rgba(0, 0, 0, 0.8)), url('https://via.placeholder.com/300x200'); /* Background with radial gradient and image */
+    background: linear-gradient(135deg, #171a21, #4e4376); /* Mixed background colors: dark purple and dark blue */
     color: #fff; /* White text */
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: radial-gradient(circle, rgba(30, 30, 30, 0.8), rgba(0, 0, 0, 0.8)), url('https://via.placeholder.com/300x200'); /* Background with radial gradient and image */
+    background: linear-gradient(135deg, #171a21, #4e4376); /* Mixed background colors: dark purple and dark blue */
     color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #00adee; /* Blue border bottom */
@@ -96,4 +96,4 @@ main {
 
 .warning-text {
     font-weight: bold;
-    }
+}
