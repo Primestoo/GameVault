@@ -7,7 +7,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: linear-gradient(135deg, #171a21, #4e4376); /* Mixed background colors: dark purple and dark blue */
+    background: linear-gradient(135deg, rgba(23, 26, 33, 0.9), rgba(78, 67, 118, 0.9)); /* Dark purple and dark blue mixed together */
     color: #fff; /* White text */
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #171a21, #4e4376); /* Mixed background colors: dark purple and dark blue */
+    background: linear-gradient(135deg, rgba(23, 26, 33, 0.9), rgba(78, 67, 118, 0.9)); /* Dark purple and dark blue mixed together */
     color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #00adee; /* Blue border bottom */
@@ -49,7 +49,7 @@ main {
 
 .game {
     margin-bottom: 40px;
-    background-color: #1b2838; /* Dark blue background for game sections */
+    background-color: rgba(27, 40, 56, 0.8); /* Semi-transparent dark blue background for game sections */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
@@ -58,7 +58,6 @@ main {
 .game h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #fff; /* White text for game titles */
 }
 
 .game-name {
