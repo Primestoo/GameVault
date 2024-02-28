@@ -7,7 +7,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: linear-gradient(135deg, #2e1f4f, #0c0c2e); /* Dark purple and dark blue mixed together */
+    background: linear-gradient(135deg, #191b28, #2c0e1f); /* Deep midnight blue and rich burgundy red mixed together */
     color: #fff; /* White text */
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #2e1f4f, #0c0c2e); /* Dark purple and dark blue mixed together */
+    background: linear-gradient(135deg, #191b28, #2c0e1f); /* Deep midnight blue and rich burgundy red mixed together */
     color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #00adee; /* Blue border bottom */
@@ -97,4 +97,4 @@ main {
 
 .warning-text {
     font-weight: bold;
-}
+        }
