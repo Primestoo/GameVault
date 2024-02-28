@@ -7,7 +7,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: linear-gradient(135deg, #191b28, #2c0e1f); /* Deep midnight blue and rich burgundy red mixed together */
+    background: linear-gradient(135deg, #1e1b2b, #332c43); /* Dark purple and midnight blue mixed together */
     color: #fff; /* White text */
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #191b28, #2c0e1f); /* Deep midnight blue and rich burgundy red mixed together */
+    background: linear-gradient(135deg, #1e1b2b, #332c43); /* Dark purple and midnight blue mixed together */
     color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #00adee; /* Blue border bottom */
@@ -71,7 +71,7 @@ main {
 .info-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #33004d; /* Dark purple for button background */
+    background-color: #2d2340; /* Darker shade of purple for button background */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -83,7 +83,7 @@ main {
 
 .download-btn:hover,
 .info-btn:hover {
-    background-color: #800080; /* Darker shade of purple on hover */
+    background-color: #4d3860; /* Slightly darker shade of purple on hover */
 }
 
 .warning-sign {
