@@ -49,7 +49,7 @@ main {
 
 .game {
     margin-bottom: 40px;
-    background-color: #1e2a3a; /* Dark blue background for game sections */
+    background-color: rgba(27, 40, 56, 0.8); /* Semi-transparent dark blue background for game sections */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
@@ -71,7 +71,7 @@ main {
 .info-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00adee; /* Steam blue for button background */
+    background-color: #171a21; /* Darker shade of purple for button background */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -83,7 +83,7 @@ main {
 
 .download-btn:hover,
 .info-btn:hover {
-    background-color: #007acc; /* Darker blue on hover */
+    background-color: #332c43; /* Slightly darker shade of purple on hover */
 }
 
 .warning-sign {
