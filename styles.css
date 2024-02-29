@@ -7,7 +7,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f8f8f8; /* Light gray background */
     color: #333; /* Dark text */
 }
 
@@ -22,6 +22,7 @@ header {
     color: #fff;
     padding: 20px 0;
     border-bottom: 2px solid #005a8c; /* Darker blue border bottom */
+    text-align: center; /* Center align text */
 }
 
 header h1 {
@@ -64,17 +65,20 @@ main {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333; /* Dark text */
+    text-align: center; /* Center align text */
 }
 
 .game-name {
     font-size: 18px;
     margin-bottom: 10px;
     color: #666; /* Medium gray text */
+    text-align: center; /* Center align text */
 }
 
 .download-btn,
 .info-btn {
     display: inline-block;
+    width: 150px; /* Set button width */
     padding: 10px 20px;
     background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
@@ -82,7 +86,6 @@ main {
     border-radius: 5px;
     transition: background-color 0.3s; /* Smooth transition on hover */
     font-size: 16px;
-    margin-right: 10px;
     border: none; /* Remove button border */
 }
 
@@ -102,4 +105,28 @@ main {
 
 .warning-text {
     font-weight: bold;
+}
+
+/* Additional styles */
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-btn {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+}
+
+.new-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
     }
