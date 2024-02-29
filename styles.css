@@ -12,8 +12,9 @@ body {
 }
 
 .container {
-    max-width: 100%; /* Adjusted to fit the viewport */
-    padding: 0 10px; /* Adjusted padding for smaller screens */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
@@ -25,23 +26,22 @@ header {
 }
 
 header h1 {
-    font-size: 24px; /* Reduced font size for better fit */
+    font-size: 36px;
 }
 
 nav ul {
     list-style: none;
-    text-align: center; /* Center align navigation links */
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px; /* Reduced margin for better spacing */
+    margin-right: 20px;
 }
 
 nav ul li a {
     color: #fff; /* White text for navigation links */
     text-decoration: none;
-    font-size: 16px; /* Reduced font size for better fit */
+    font-size: 18px;
     transition: color 0.3s; /* Smooth transition on hover */
 }
 
@@ -50,11 +50,11 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 20px 0; /* Adjusted padding for better spacing */
+    padding: 50px 0;
 }
 
 .game {
-    margin-bottom: 20px; /* Reduced margin for better spacing */
+    margin-bottom: 40px;
     background-color: #fff; /* White background for game sections */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
@@ -62,14 +62,14 @@ main {
 }
 
 .game h2 {
-    font-size: 20px; /* Reduced font size for better fit */
+    font-size: 24px;
     margin-bottom: 10px;
     color: #333; /* Dark text */
     text-align: center; /* Center align text */
 }
 
 .game-name {
-    font-size: 16px; /* Reduced font size for better fit */
+    font-size: 18px;
     margin-bottom: 10px;
     color: #666; /* Medium gray text */
     text-align: left; /* Align text to the left */
@@ -77,9 +77,8 @@ main {
 
 .download-btn,
 .info-btn {
-    display: block; /* Changed to block level for better responsiveness */
-    width: 100%; /* Full width for better fit */
-    padding: 10px; /* Adjusted padding for better spacing */
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
     text-decoration: none;
@@ -87,7 +86,6 @@ main {
     transition: background-color 0.3s; /* Smooth transition on hover */
     font-size: 16px;
     border: none; /* Remove button border */
-    margin-bottom: 10px; /* Adjusted margin for better spacing */
 }
 
 .download-btn:hover,
