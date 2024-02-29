@@ -12,9 +12,8 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* Limit container width for better readability */
-    margin: 0 auto; /* Center container horizontally */
-    padding: 0 20px;
+    max-width: 100%; /* Adjusted to fit the viewport */
+    padding: 0 10px; /* Adjusted padding for smaller screens */
 }
 
 header {
@@ -26,22 +25,23 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 24px; /* Reduced font size for better fit */
 }
 
 nav ul {
     list-style: none;
+    text-align: center; /* Center align navigation links */
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px; /* Reduced margin for better spacing */
 }
 
 nav ul li a {
     color: #fff; /* White text for navigation links */
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px; /* Reduced font size for better fit */
     transition: color 0.3s; /* Smooth transition on hover */
 }
 
@@ -50,11 +50,11 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 50px 0;
+    padding: 20px 0; /* Adjusted padding for better spacing */
 }
 
 .game {
-    margin-bottom: 40px;
+    margin-bottom: 20px; /* Reduced margin for better spacing */
     background-color: #fff; /* White background for game sections */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
@@ -62,14 +62,14 @@ main {
 }
 
 .game h2 {
-    font-size: 24px;
+    font-size: 20px; /* Reduced font size for better fit */
     margin-bottom: 10px;
     color: #333; /* Dark text */
     text-align: center; /* Center align text */
 }
 
 .game-name {
-    font-size: 18px;
+    font-size: 16px; /* Reduced font size for better fit */
     margin-bottom: 10px;
     color: #666; /* Medium gray text */
     text-align: center; /* Center align text */
@@ -77,8 +77,9 @@ main {
 
 .download-btn,
 .info-btn {
-    display: inline-block;
-    padding: 10px 20px;
+    display: block; /* Changed to block level for better responsiveness */
+    width: 100%; /* Full width for better fit */
+    padding: 10px; /* Adjusted padding for better spacing */
     background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
     text-decoration: none;
@@ -86,8 +87,7 @@ main {
     transition: background-color 0.3s; /* Smooth transition on hover */
     font-size: 16px;
     border: none; /* Remove button border */
-    width: auto; /* Adjust width based on content */
-    margin: 0 5px; /* Add some spacing between buttons */
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
 }
 
 .download-btn:hover,
@@ -116,6 +116,7 @@ main {
 
 .new-btn {
     display: inline-block;
+    width: 150px;
     padding: 10px 20px;
     background-color: #4CAF50; /* Green button */
     color: #fff;
