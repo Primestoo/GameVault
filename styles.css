@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-    width: 100%; /* Full width */
+    max-width: 1200px; /* Limit container width for better readability */
+    margin: 0 auto; /* Center container horizontally */
     padding: 0 20px;
 }
 
@@ -77,7 +78,6 @@ main {
 .download-btn,
 .info-btn {
     display: inline-block;
-    width: 150px; /* Set button width */
     padding: 10px 20px;
     background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
@@ -114,7 +114,6 @@ main {
 
 .new-btn {
     display: inline-block;
-    width: 150px;
     padding: 10px 20px;
     background-color: #4CAF50; /* Green button */
     color: #fff;
@@ -128,4 +127,4 @@ main {
 
 .new-btn:hover {
     background-color: #45a049; /* Darker green on hover */
-}
+    }
