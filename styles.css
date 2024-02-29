@@ -109,8 +109,7 @@ main {
 
 /* Additional styles */
 .btn-container {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -130,4 +129,4 @@ main {
 
 .new-btn:hover {
     background-color: #45a049; /* Darker green on hover */
-    }
+}
