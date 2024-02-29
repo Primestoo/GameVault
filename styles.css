@@ -1,3 +1,7 @@
+Like the full version, for the background, buttons and everything;
+
+This is my current css code:
+
 /* Reset styles */
 * {
     margin: 0;
@@ -7,7 +11,7 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #171a21; /* Dark blue background */
+    background: linear-gradient(135deg, #1e1b2b, #332c43); /* Dark purple and midnight blue mixed together */
     color: #fff; /* White text */
 }
 
@@ -18,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #171a21; /* Dark blue header */
+    background: linear-gradient(135deg, #1e1b2b, #332c43); /* Dark purple and midnight blue mixed together */
     color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #00adee; /* Blue border bottom */
@@ -49,7 +53,7 @@ main {
 
 .game {
     margin-bottom: 40px;
-    background-color: #1b2838; /* Dark blue background for game sections */
+    background-color: rgba(27, 40, 56, 0.8); /* Semi-transparent dark blue background for game sections */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
@@ -71,18 +75,19 @@ main {
 .info-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00adee; /* Blue download buttons */
+    background-color: #2d2340; /* Darker shade of purple for button background */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
     font-size: 16px;
     margin-right: 10px;
+    border: none; /* Remove button border */
 }
 
 .download-btn:hover,
 .info-btn:hover {
-    background-color: #007acc; /* Darker blue on hover */
+    background-color: #4d3860; /* Slightly darker shade of purple on hover */
 }
 
 .warning-sign {
@@ -96,6 +101,4 @@ main {
 
 .warning-text {
     font-weight: bold;
-    }
-
-Add that in this code.
+}
