@@ -86,6 +86,8 @@ main {
     transition: background-color 0.3s; /* Smooth transition on hover */
     font-size: 16px;
     border: none; /* Remove button border */
+    width: auto; /* Adjust width based on content */
+    margin: 0 5px; /* Add some spacing between buttons */
 }
 
 .download-btn:hover,
