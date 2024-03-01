@@ -59,8 +59,8 @@ main {
     padding: 20px;
     border-radius: 10px; /* Smoother corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 20px; /* Adjusted right margin */
-    margin-left: 25px; /* Adjusted left margin */
+    margin-right: 25px; /* Adjusted right margin */
+    margin-left: 30px; /* Adjusted left margin */
 }
 
 .game h2 {
