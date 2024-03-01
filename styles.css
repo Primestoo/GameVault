@@ -56,11 +56,9 @@ main {
 .game {
     margin-bottom: 20px;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px; /* Smoother corners */
+    padding: 15px; /* Decrease padding for less stretching */
+    border-radius: 10px; /* Smoother outlines */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 25px; /* Adjusted right margin */
-    margin-left: 30px; /* Adjusted left margin */
 }
 
 .game h2 {
@@ -108,4 +106,4 @@ footer {
 
 footer p {
     font-size: 16px;
-}
+        }
