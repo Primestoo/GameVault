@@ -56,11 +56,11 @@ main {
 .game {
     margin-bottom: 20px;
     background-color: #fff;
-    padding: 15px; /* Decrease padding for less stretching */
+    padding: 20px; /* Increased padding */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: auto; /* Move the game section box to the left */
-    margin-left: 0; /* Reset the left margin */
+    margin-right: 50px; /* Adjusted right margin */
+    margin-left: 20px; /* Adjusted left margin */
 }
 
 .game h2 {
