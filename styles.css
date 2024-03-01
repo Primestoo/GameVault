@@ -54,30 +54,31 @@ main {
 }
 
 .game {
-    margin-bottom: 40px;
-    background-color: #fff; /* White background for game sections */
-    padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    margin-bottom: 20px; /* Decrease margin for smaller spacing */
+    background-color: #fff;
+    padding: 15px; /* Decrease padding for smaller size */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .game h2 {
     font-size: 24px;
-    margin-bottom: 10px;
-    color: #333; /* Dark text */
-    text-align: center; /* Center align text */
+    margin-bottom: 5px; /* Decrease margin for tighter spacing */
+    color: #333;
+    text-align: left; /* Align text to the left */
 }
 
 .game-name {
     font-size: 18px;
-    margin-bottom: 10px;
-    color: #666; /* Medium gray text */
+    margin-bottom: 5px; /* Decrease margin for tighter spacing */
+    color: #666;
     text-align: left; /* Align text to the left */
 }
 
 .download-btn,
 .info-btn {
     display: inline-block;
+    width: 150px; /* Set button width */
     padding: 10px 20px;
     background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
