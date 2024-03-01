@@ -54,30 +54,31 @@ main {
 }
 
 .game {
-    margin-bottom: 20px; /* Decrease margin for smaller spacing */
+    margin-bottom: 20px;
     background-color: #fff;
-    padding: 15px; /* Decrease padding for smaller size */
+    padding: 15px; /* Decrease padding for less stretching */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .game h2 {
     font-size: 24px;
-    margin-bottom: 5px; /* Decrease margin for tighter spacing */
+    margin-bottom: 5px;
     color: #333;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .game-name {
     font-size: 18px;
-    margin-bottom: 5px; /* Decrease margin for tighter spacing */
+    margin-bottom: 5px;
     color: #666;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
-.download-btn {
+.download-btn,
+.info-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 15px; /* Decrease padding for less stretching */
     background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
     text-decoration: none;
@@ -88,15 +89,6 @@ main {
 }
 
 .info-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #005a8c; /* Dark blue download buttons */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s; /* Smooth transition on hover */
-    font-size: 16px;
-    border: none; /* Remove button border */
     margin-left: 10px; /* Add margin to separate from download button */
 }
 
@@ -114,4 +106,4 @@ footer {
 
 footer p {
     font-size: 16px;
-    }
+}
