@@ -75,8 +75,7 @@ main {
     text-align: left; /* Align text to the left */
 }
 
-.download-btn,
-.info-btn {
+.download-btn {
     display: inline-block;
     width: 150px; /* Set button width */
     padding: 10px 20px;
@@ -89,44 +88,31 @@ main {
     border: none; /* Remove button border */
 }
 
+.info-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005a8c; /* Dark blue download buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    font-size: 16px;
+    border: none; /* Remove button border */
+    margin-left: 10px; /* Add margin to separate from download button */
+}
+
 .download-btn:hover,
 .info-btn:hover {
     background-color: #007acc; /* Darker blue on hover */
 }
 
-.warning-sign {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('warning.png');
-    background-size: cover;
-    margin-right: 10px;
-}
-
-.warning-text {
-    font-weight: bold;
-}
-
-/* Additional styles */
-.btn-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.new-btn {
-    display: inline-block;
-    width: 150px;
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Green button */
+footer {
+    background-color: #007acc; /* Dark blue footer */
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-size: 16px;
-    margin-right: 10px;
-    border: none;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.new-btn:hover {
-    background-color: #45a049; /* Darker green on hover */
+footer p {
+    font-size: 16px;
     }
