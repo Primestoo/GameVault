@@ -75,26 +75,20 @@ main {
     text-align: left;
 }
 
-.download-btn,
-.info-btn {
+button {
     display: inline-block;
-    padding: 10px 15px; /* Decrease padding for less stretching */
-    background-color: #005a8c; /* Dark blue download buttons */
+    padding: 10px 15px;
+    background-color: #005a8c;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s; /* Smooth transition on hover */
+    transition: background-color 0.3s;
     font-size: 16px;
-    border: none; /* Remove button border */
+    border: none;
 }
 
-.info-btn {
-    margin-left: 10px; /* Add margin to separate from download button */
-}
-
-.download-btn:hover,
-.info-btn:hover {
-    background-color: #007acc; /* Darker blue on hover */
+button:hover {
+    background-color: #007acc;
 }
 
 footer {
@@ -106,4 +100,4 @@ footer {
 
 footer p {
     font-size: 16px;
-        }
+}
