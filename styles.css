@@ -75,20 +75,26 @@ main {
     text-align: left;
 }
 
-button {
+.download-btn,
+.info-btn {
     display: inline-block;
-    padding: 10px 15px;
-    background-color: #005a8c;
+    padding: 10px 15px; /* Decrease padding for less stretching */
+    background-color: #005a8c; /* Dark blue download buttons */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /* Smooth transition on hover */
     font-size: 16px;
-    border: none;
+    border: none; /* Remove button border */
 }
 
-button:hover {
-    background-color: #007acc;
+.info-btn {
+    margin-left: 10px; /* Add margin to separate from download button */
+}
+
+.download-btn:hover,
+.info-btn:hover {
+    background-color: #007acc; /* Darker blue on hover */
 }
 
 footer {
