@@ -113,7 +113,7 @@ footer p {
         filter: blur(0px);
     }
     100% {
-        filter: blur(100px); /* Adjust blur intensity as desired */
+        filter: blur(200px); /* Adjust blur intensity as desired */
     }
 }
 
