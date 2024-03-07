@@ -107,3 +107,17 @@ footer {
 footer p {
     font-size: 16px;
 }
+
+@keyframes motionBlur {
+    0% {
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(5px); /* Adjust blur intensity as desired */
+    }
+}
+
+/* Add a class to apply the animation */
+.motion-blur {
+    animation: motionBlur 0.5s forwards; /* Adjust animation duration as desired */
+    }
